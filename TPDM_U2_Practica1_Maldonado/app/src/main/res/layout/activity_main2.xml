@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Main2Activity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descripcion:"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:hint="descripcion del proyecto"
+        android:id="@+id/descripcionP"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ubicacion:"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:hint="ubicacion del proyecto"
+        android:id="@+id/ubicacionP"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha:"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginVertical="10dp"
+        android:clickable="true"
+        android:editable="false"
+        android:layout_height="wrap_content"
+        android:hint="fecha del proyecto"
+        android:id="@+id/fechaP"
+        tools:ignore="Deprecated" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Presupuesto:"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:inputType="numberDecimal"
+        android:hint="presupuesto del proyecto"
+        android:id="@+id/presupuestoP"/>
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Insertar"
+        android:layout_gravity="center"
+        android:background="#25C7E4"
+        android:textColor="#FFFFFF"
+        android:id="@+id/insertarP"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:layout_gravity="center"
+        android:id="@+id/regresarP"
+        />
+
+
+
+</LinearLayout>
